@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    background-color: #021835;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.blue{
+    color: white;
+}
+
+.play{
+    color: green;
+    font-size: 10px;
+}
+.header-img{
+    margin-left: 120px;
+}

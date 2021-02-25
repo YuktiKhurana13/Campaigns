@@ -1,0 +1,48 @@
+.campaigns-item{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.campaigns-item >a{
+    text-decoration: none;
+}
+
+.campaign-name{
+    display: flex;
+    flex-grow: 4;
+}
+
+.campaign-actions{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+.region{
+    font-size: 10px;
+}
+
+.campaign-date , .campaign-pricing , .campaign-actions , .campaign-name{
+    margin-right: 50px;
+}
+
+.campaign-date{
+    flex-grow: 1;
+}
+
+.campaign-pricing{
+    flex-grow: 1;
+}
+
+.difference{
+    font-size: 10px;
+}
+
+.campaign-pricing{
+    cursor: pointer;
+    color: rgb(157, 157, 226);
+}
+
+.calender{
+    cursor: pointer;
+}

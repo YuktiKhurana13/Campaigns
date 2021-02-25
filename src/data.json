@@ -1,0 +1,94 @@
+{
+    "data": [{
+        "name": "AOT",
+        "region": "US",
+        "createdOn": "2021,02,24",
+        "price": 100,
+        "csv": "Some CSV link for Whatsapp",
+        "report": "Some report link for Whatsapp",
+        "image_url":"./img/AOT.png" 
+      },
+      {
+        "name": "Asphalt",
+        "region": "CA, FR",
+        "createdOn": "2021,02,20",
+        "price": 200,
+        "csv": "Some CSV link for Super Jewels Quest",
+        "report": "Some report link for Super Jewels Ques",
+        "image_url":"./img/Asphalt.png"
+      },
+      {
+        "name": "Battle Royale",
+        "region": "FR",
+        "createdOn": "2021,02,20",
+        "price": 200,
+        "csv": "Some CSV link for Mole Slayer",
+        "report": "Some report link for Mole Slayer",
+        "image_url":"./img/Battle Royale.png"
+      },
+      {
+        "name": "CSR2",
+        "region": "JP",
+        "createdOn": "2021,02,23",
+        "price": 100,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/CSR2.png"
+      },
+      {
+        "name": "FreeFire",
+        "region": "JP",
+        "createdOn": "2021,02,23",
+        "price": 300,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/FreeFire.png"
+      },
+      {
+        "name": "GameVIL",
+        "region": "JP",
+        "createdOn": "2021,02,23",
+        "price": 400,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/GameVIL.png"
+      },
+      {
+        "name": "PUBG",
+        "region": "JP",
+        "createdOn": "2021,02,22",
+        "price": 300,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/PUBG.png"
+      },
+      {
+        "name": "RealRacing",
+        "region": "JP",
+        "createdOn": "2021,02,22",
+        "price": 200,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/RealRacing.png"
+      },
+      {
+        "name": "ShipWar",
+        "region": "JP",
+        "createdOn": "2021,02,21",
+        "price": 300,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/ShipWar.png"
+      },
+      {
+        "name": "Shooting",
+        "region": "JP",
+        "createdOn": "2021,02,21",
+        "price": 100,
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Some report link for Mancala Mix",
+        "image_url":"./img/Shooting.png"
+      }
+    ]
+  }
+  
