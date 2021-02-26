@@ -57,7 +57,6 @@ function Games(props){
         <div>
             {props.data?.map((item)=> {
                 const dte=new Date(item.createdOn);
-                // setCalDate(item.createdOn)
                 var gameDate=monthNames[dte.getMonth()]+" "+dte.getFullYear()+", "+dte.getDate();
                 const diff=Math.floor((today.getTime()-dte.getTime())/(1000 * 3600 * 24));
                     return(
@@ -68,7 +67,7 @@ function Games(props){
                             </div> 
 
                             <div className="campaign-name">
-                                 <img src=".\img\AOT" />
+                                 <img src={item.image_url} />
                                  <div className="game-name">
                                     <div className="name">{item.name} </div>
                                     <div className="region">{item.region} </div>
@@ -93,6 +92,8 @@ function Games(props){
                     <Calendar onChange={(e)=>changeCalender(e)} value={calDate} />
                     :null  
                 }
+
+                {/* //dashboard-popup */}
                 {showPopup ?  
                     <Popup  
                             price={popupProps.price}  
@@ -102,9 +103,7 @@ function Games(props){
                             closePopup={togglePopup}  
                     />  
                     : null  
-                }
-
-                
+                }    
         </div>
     )
 }

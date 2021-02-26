@@ -5,12 +5,14 @@ import data from './data.json';
 
 function DisplayedCampaigns(){
 
+    //data related to selected tab
     const [state,setState]=useState(data);
+    //to find selected tab
     const [selected, setSelected]=useState('');
 
     const clickHandler=(e)=>{
         if(e.target.innerText==="Upcoming Campaigns"){
-            
+            // click handler for upcoming campaign tab
             let newData=data.data.filter((game)=>{
                 const dte=new Date(game.createdOn);
                 const today=new Date();
@@ -23,11 +25,11 @@ function DisplayedCampaigns(){
 
             let newState={data:newData};
             setState(newState);
-            
+            //to append active class to the selected tab
             setSelected(e.target.innerText)
 
         }else if(e.target.innerText==="Live Campaigns"){
-            
+            // click handler for live campaign tab
             
             let newData=data.data.filter((game)=>{
                 const dte=new Date(game.createdOn);
@@ -41,10 +43,11 @@ function DisplayedCampaigns(){
             
             let newState={data:newData};
             setState(newState);
-
+            //to append active class to the selected tab
             setSelected(e.target.innerText)
 
         }else if(e.target.innerText==="Past Campaigns"){
+            // click handler for past campaign tab
             
             let newData=data.data.filter((game)=>{
                 const dte=new Date(game.createdOn);
@@ -59,6 +62,7 @@ function DisplayedCampaigns(){
             
             let newState={data:newData};
             setState(newState);
+            //to append active class to the selected tab
             setSelected(e.target.innerText)
 
         }
